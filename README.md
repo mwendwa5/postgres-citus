@@ -1,7 +1,7 @@
 # PostgreSQL Schema design and optimization using citus extension
 This schema supports scalability, data normalization, efficient querying, partitioning and Sharding strategies for optimal performance.
 
-##Instructions
+## Instructions
 ### Prerequisites
 
 - PostgreSQL cluster, with optional shard nodes with the citus extention enabled.
@@ -9,7 +9,7 @@ This schema supports scalability, data normalization, efficient querying, partit
 create extension citus;
 ```
 
-###Architecture
+### Architecture
 This is the architectural diagram of how the solution looks like.
 <img  width="400px" height=auto src= "architecture.png" />
 
